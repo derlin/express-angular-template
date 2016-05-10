@@ -1,0 +1,41 @@
+/* Sticky header and footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* padding top for header */
+    padding-top: 70px;
+    /* margin bottom for footer */
+    margin-bottom: 60px;
+}
+
+.footer {
+    /* fixed height of the footer */
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer ul {
+    margin-left: 0;
+}
+
+.footer li {
+    line-height: 50px;
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+.footer li a {
+    color: #888;
+}
+
+.navbar-brand > img {
+    height: 100%;
+    width: auto;
+}
